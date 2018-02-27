@@ -15,7 +15,7 @@ double size(int i, int j, int k) // 利用海伦公式 sqrt(p*(p-a)*(p-b)*(p-c))
     double dis2 = dis(node[i][0], node[i][1], node[k][0], node[k][1]);
     double dis3 = dis(node[j][0], node[j][1], node[k][0], node[k][1]);
     double p = 0.5 * (dis1 + dis2 + dis3);
-    return sqrt(p * (p-dis1) * (p-dis2) * (p-dis3));
+    return sqrt(p * (p-dis1) * (p-dis2) * (p-dis3)); 
 }
 int main()
 {
