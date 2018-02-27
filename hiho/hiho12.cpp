@@ -7,8 +7,7 @@ int node[109][2];
 double dp[109][109][109] = {0};
 double dis(int x1, int y1, int x2, int y2)
 {
-    return sqrt( (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2) );
-    
+    return sqrt( (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2) ); // 尝试第三次
 }
 double size(int i, int j, int k) // 利用海伦公式 sqrt(p*(p-a)*(p-b)*(p-c))
 {
